@@ -7,7 +7,9 @@ public class Interact : MonoBehaviour
     #region member fields
 
     [SerializeField]
-    AudioClip click, pop;
+    AudioClip click;
+    [SerializeField]
+    AudioClip pop;
 
     [SerializeField]
     LayerMask interactMask;
